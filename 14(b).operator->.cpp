@@ -3,7 +3,8 @@ using namespace std;
 class loc {
    public:
    int a;
-   loc *operator->(){
+   loc *operator->()
+   {
        return this;
    }
     
